@@ -1,16 +1,31 @@
-# vigenesia
+## Inventory
 
-A new Flutter project.
+🛠️ Instalasi & Setup
 
-## Getting Started
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini secara lokal:
 
-This project is a starting point for a Flutter application.
+1. Clone Repository
+```
+git clone https://github.com/Karungg/vigenesia-kelompok-miftah.git
+cd flutter-inventory
+```
 
-A few resources to get you started if this is your first Flutter project:
+2. Pastikan Flutter Sudah Terinstal
+```
+flutter --version
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Jika belum terinstal, ikuti petunjuk resmi di https://flutter.dev/docs/get-started/install
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Install Dependencies
+```
+flutter pub get
+```
+
+4. Jalankan Aplikasi
+```
+flutter run
+```
+5. Hubungkan dengan backend
+   
+Pastikan aplikasi ini terhubung dengan backend yang berada di <a href="https://github.com/Karungg/backend-vigenesia-kelompok-miftah">backend vigenesia</a>
